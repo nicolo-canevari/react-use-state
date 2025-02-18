@@ -1,3 +1,71 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container {
+
+  text-align: center;
+  padding: 40px;
+
+}
+
+h1 {
+
+  font-size: 36px;
+  margin-bottom: 20px;
+
+}
+
+.button-container {
+
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.button {
+
+  background-color: rgb(57, 57, 209);
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+
+}
+
+.button.active {
+
+  background-color: gold;
+  color: black;
+
+}
+
+.content-box {
+
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+
+}
+
+.content-box h3 {
+
+  margin-bottom: 30px;
+
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
